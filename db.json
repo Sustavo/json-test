@@ -1,9 +1,2212 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "users": [
+    {
+      "nome": "gusta",
+      "email": "email@gmail.com",
+      "password": "fofifnha",
+      "id": 1
+    },
+    {
+      "nome": "Gustav",
+      "email": "gy@gmail.com",
+      "password": "12345",
+      "id": 2
+    },
+    {
+      "nome": "Gustavo",
+      "email": "gustavo@gmail.com",
+      "password": "gustavo12",
+      "id": 3
+    },
+    {
+      "nome": "Gustavo Sousa Castro",
+      "email": "gust4v0309@gmail.com",
+      "password": "fofinah123",
+      "id": 4
+    },
+    {
+      "nome": "Fofinha",
+      "email": "fofinha@gmail.com",
+      "password": "fofinha12",
+      "id": 5
+    },
+    {
+      "nome": "Gongas",
+      "email": "gu@gmail.com",
+      "password": "123",
+      "id": 6
+    },
+    {
+      "nome": "Gustavo Sousa Castro",
+      "email": "g@gmail.com",
+      "password": "1234",
+      "id": 7
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Ramen Coreano",
+      "category": "Salgado",
+      "time": "10-15 min",
+      "image": "https://i.postimg.cc/Wp9QcrTG/Ramen2.png",
+      "calories": 436,
+      "macroNutrients": [
+        {
+          "id": 1,
+          "MacroNutrient": "Carboidratos",
+          "Quantity": 68
+        },
+        {
+          "id": 2,
+          "MacroNutrient": "Proteínas",
+          "Quantity": 8
+        },
+        {
+          "id": 3,
+          "MacroNutrient": "Gorduras",
+          "Quantity": 13
+        }
+      ],
+      "ingredients": [
+        {
+          "id": 1,
+          "ingredient": "Costelinha suína",
+          "quantity": "200g"
+        },
+        {
+          "id": 2,
+          "ingredient": "Macarrão instantâneo",
+          "quantity": "1 unidade"
+        },
+        {
+          "id": 3,
+          "ingredient": "Acelga",
+          "quantity": "a gosto"
+        },
+        {
+          "id": 4,
+          "ingredient": "Cebolinha",
+          "quantity": "a gosto"
+        },
+        {
+          "id": 5,
+          "ingredient": "Cebola",
+          "quantity": "1 unidade"
+        },
+        {
+          "id": 6,
+          "ingredient": "Shoyu",
+          "quantity": "100ml"
+        },
+        {
+          "id": 7,
+          "ingredient": "Dente de alho",
+          "quantity": "4 unidades"
+        },
+        {
+          "id": 8,
+          "ingredient": "Sal",
+          "quantity": "a gosto"
+        },
+        {
+          "id": 9,
+          "ingredient": "Gengibre",
+          "quantity": "1/6"
+        },
+        {
+          "id": 10,
+          "ingredient": "Água",
+          "quantity": "2L"
+        },
+        {
+          "id": 11,
+          "ingredient": "Milho",
+          "quantity": "a gosto"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "instruction": "Em uma panela, frite o alho moído em fogo baixo até dourar"
+        },
+        {
+          "id": 2,
+          "instruction": "Depois, coloque a costelinha na panela com a gordura virada para baixo até que doure"
+        },
+        {
+          "id": 3,
+          "instruction": "Vire e deixe dourar o outro lado também"
+        },
+        {
+          "id": 4,
+          "instruction": "Acrescente a água e deixe fervendo, depois abaixe o fogo"
+        },
+        {
+          "id": 5,
+          "instruction": "Misture o gengibre ralado no molho shoyu e coloque a mistura na panela"
+        },
+        {
+          "id": 6,
+          "instruction": "Coloque o macarrão e deixe cozinhar por 4 minutos, escorra e reserve"
+        },
+        {
+          "id": 7,
+          "instruction": "Coloque um pouco de água para ferver e jogue em cima da moyashi"
+        },
+        {
+          "id": 8,
+          "instruction": "Coloque o macarrão na tigela e acrescente 2 conchas do caldo do lámen"
+        },
+        {
+          "id": 9,
+          "instruction": "Em seguida, coloque as costelinhas, os ovos, a acelga, o moyashi e jogue mais caldo por cima"
+        },
+        {
+          "id": 10,
+          "instruction": "Jogue a cebolinha picada por cima e, pronto, bom apetite!"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Feijoada",
+      "category": "Salgado",
+      "time": "2-3 horas",
+      "image": "https://i.postimg.cc/26kXPjt9/Feijoada.png",
+      "calories": 650,
+      "macroNutrients": [
+        {
+          "id": 1,
+          "MacroNutrient": "Carboidratos",
+          "Quantity": 68
+        },
+        {
+          "id": 2,
+          "MacroNutrient": "Proteínas",
+          "Quantity": 8
+        },
+        {
+          "id": 3,
+          "MacroNutrient": "Gorduras",
+          "Quantity": 13
+        }
+      ],
+      "ingredients": [
+        {
+          "id": 1,
+          "ingredient": "Feijão preto",
+          "quantity": "500g"
+        },
+        {
+          "id": 2,
+          "ingredient": "Carne de porco (paleta)",
+          "quantity": "500g"
+        },
+        {
+          "id": 3,
+          "ingredient": "Bacon",
+          "quantity": "200g"
+        },
+        {
+          "id": 4,
+          "ingredient": "Linguiça calabresa",
+          "quantity": "300g"
+        },
+        {
+          "id": 5,
+          "ingredient": "Costelinha de porco",
+          "quantity": "500g"
+        },
+        {
+          "id": 6,
+          "ingredient": "Orelha de porco",
+          "quantity": "1 unidade"
+        },
+        {
+          "id": 7,
+          "ingredient": "Pé de porco",
+          "quantity": "1 unidade"
+        },
+        {
+          "id": 8,
+          "ingredient": "Cebola",
+          "quantity": "1 unidade"
+        },
+        {
+          "id": 9,
+          "ingredient": "Alho",
+          "quantity": "4 dentes"
+        },
+        {
+          "id": 10,
+          "ingredient": "Sal",
+          "quantity": "a gosto"
+        },
+        {
+          "id": 11,
+          "ingredient": "Pimenta-do-reino",
+          "quantity": "a gosto"
+        },
+        {
+          "id": 12,
+          "ingredient": "Cheiro-verde",
+          "quantity": "a gosto"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "instruction": "Cozinhe o feijão preto até ficar macio."
+        },
+        {
+          "id": 2,
+          "instruction": "Em uma panela separada, refogue a carne de porco (paleta) e o bacon."
+        },
+        {
+          "id": 3,
+          "instruction": "Adicione o feijão cozido à panela com a carne e o bacon."
+        },
+        {
+          "id": 4,
+          "instruction": "Acrescente a linguiça calabresa, a costelinha de porco, a orelha de porco e o pé de porco."
+        },
+        {
+          "id": 5,
+          "instruction": "Adicione a cebola e o alho picados."
+        },
+        {
+          "id": 6,
+          "instruction": "Tempere com sal, pimenta-do-reino e cheiro-verde."
+        },
+        {
+          "id": 7,
+          "instruction": "Deixe a feijoada cozinhar em fogo baixo por cerca de 1 hora, mexendo ocasionalmente."
+        },
+        {
+          "id": 8,
+          "instruction": "Sirva a feijoada quente acompanhada de arroz, couve, farofa e laranja."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Filé Mignon",
+      "category": "salgado",
+      "time": "30-40 minutos",
+      "image": "https://i.postimg.cc/tJ7v4Sph/fmignon.png",
+      "calories": 450,
+      "macroNutrients": [
+        {
+          "id": 1,
+          "MacroNutrient": "Carboidratos",
+          "Quantity": 5
+        },
+        {
+          "id": 2,
+          "MacroNutrient": "Proteínas",
+          "Quantity": 25
+        },
+        {
+          "id": 3,
+          "MacroNutrient": "Gorduras",
+          "Quantity": 18
+        }
+      ],
+      "ingredients": [
+        {
+          "id": 1,
+          "ingredient": "Filé Mignon",
+          "quantity": "500g"
+        },
+        {
+          "id": 2,
+          "ingredient": "Sal",
+          "quantity": "a gosto"
+        },
+        {
+          "id": 3,
+          "ingredient": "Pimenta-do-reino",
+          "quantity": "a gosto"
+        },
+        {
+          "id": 4,
+          "ingredient": "Azeite de oliva",
+          "quantity": "2 colheres de sopa"
+        },
+        {
+          "id": 5,
+          "ingredient": "Manteiga",
+          "quantity": "2 colheres de sopa"
+        },
+        {
+          "id": 6,
+          "ingredient": "Alho",
+          "quantity": "4 dentes"
+        },
+        {
+          "id": 7,
+          "ingredient": "Ervas frescas (tomilho, alecrim, salsa)",
+          "quantity": "a gosto"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "instruction": "Tempere o Filé Mignon com sal e pimenta-do-reino."
+        },
+        {
+          "id": 2,
+          "instruction": "Em uma frigideira grande, aqueça o azeite de oliva em fogo alto."
+        },
+        {
+          "id": 3,
+          "instruction": "Adicione o Filé Mignon à frigideira e sele todos os lados por cerca de 2 minutos cada."
+        },
+        {
+          "id": 4,
+          "instruction": "Reduza o fogo para médio e adicione a manteiga e o alho à frigideira."
+        },
+        {
+          "id": 5,
+          "instruction": "Regue o Filé Mignon com a manteiga derretida, alho e ervas frescas."
+        },
+        {
+          "id": 6,
+          "instruction": "Continue a cozinhar o Filé Mignon por mais 5-7 minutos, virando-o ocasionalmente, até atingir o ponto de cozimento desejado (mal passado, ao ponto, bem passado)."
+        },
+        {
+          "id": 7,
+          "instruction": "Retire o Filé Mignon da frigideira e deixe descansar por alguns minutos antes de cortar."
+        },
+        {
+          "id": 8,
+          "instruction": "Sirva o Filé Mignon fatiado acompanhado de molho de sua preferência, legumes ou salada."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Hambúrguer",
+      "category": "salgado",
+      "time": "30 minutos",
+      "image": "https://i.postimg.cc/zBxP5ZZz/Hamburguer.png",
+      "calories": 500,
+      "macroNutrients": [
+        {
+          "id": 1,
+          "MacroNutrient": "Carboidratos",
+          "Quantity": 40
+        },
+        {
+          "id": 2,
+          "MacroNutrient": "Proteínas",
+          "Quantity": 25
+        },
+        {
+          "id": 3,
+          "MacroNutrient": "Gorduras",
+          "Quantity": 20
+        }
+      ],
+      "ingredients": [
+        {
+          "id": 1,
+          "ingredient": "Carne moída",
+          "quantity": "500g"
+        },
+        {
+          "id": 2,
+          "ingredient": "Sal",
+          "quantity": "1 colher de chá"
+        },
+        {
+          "id": 3,
+          "ingredient": "Pimenta-do-reino",
+          "quantity": "1/2 colher de chá"
+        },
+        {
+          "id": 4,
+          "ingredient": "Cebola",
+          "quantity": "1 unidade, picada"
+        },
+        {
+          "id": 5,
+          "ingredient": "Alho",
+          "quantity": "2 dentes, picados"
+        },
+        {
+          "id": 6,
+          "ingredient": "Pão de hambúrguer",
+          "quantity": "4 unidades"
+        },
+        {
+          "id": 7,
+          "ingredient": "Queijo cheddar",
+          "quantity": "4 fatias"
+        },
+        {
+          "id": 8,
+          "ingredient": "Tomate",
+          "quantity": "4 fatias"
+        },
+        {
+          "id": 9,
+          "ingredient": "Alface",
+          "quantity": "4 folhas"
+        },
+        {
+          "id": 10,
+          "ingredient": "Molho de maionese",
+          "quantity": "a gosto"
+        },
+        {
+          "id": 11,
+          "ingredient": "Ketchup",
+          "quantity": "a gosto"
+        },
+        {
+          "id": 12,
+          "ingredient": "Mostarda",
+          "quantity": "a gosto"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "instruction": "Em uma tigela, misture a carne moída, o sal, a pimenta-do-reino, a cebola e o alho."
+        },
+        {
+          "id": 2,
+          "instruction": "Divida a mistura em 4 porções e molde cada porção em formato de hambúrguer."
+        },
+        {
+          "id": 3,
+          "instruction": "Aqueça uma frigideira ou grelha em fogo médio-alto."
+        },
+        {
+          "id": 4,
+          "instruction": "Cozinhe os hambúrgueres por cerca de 4 minutos de cada lado, ou até atingirem o ponto de cozimento desejado."
+        },
+        {
+          "id": 5,
+          "instruction": "Durante os últimos minutos de cozimento, coloque uma fatia de queijo cheddar sobre cada hambúrguer e deixe derreter."
+        },
+        {
+          "id": 6,
+          "instruction": "Em outra frigideira, toste os pães de hambúrguer."
+        },
+        {
+          "id": 7,
+          "instruction": "Monte os hambúrgueres colocando um hambúrguer em cada pão tostado e adicionando fatias de tomate, folhas de alface, molho de maionese, ketchup e mostarda a gosto."
+        },
+        {
+          "id": 8,
+          "instruction": "Sirva os hambúrgueres quentes acompanhados de batatas fritas ou salada."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Cachorro-quente",
+      "category": "salgado",
+      "time": "20 minutos",
+      "image": "https://i.postimg.cc/W46HWq5J/HotDog.png",
+      "calories": 400,
+      "macroNutrients": [
+        {
+          "id": 1,
+          "MacroNutrient": "Carboidratos",
+          "Quantity": 35
+        },
+        {
+          "id": 2,
+          "MacroNutrient": "Proteínas",
+          "Quantity": 15
+        },
+        {
+          "id": 3,
+          "MacroNutrient": "Gorduras",
+          "Quantity": 20
+        }
+      ],
+      "ingredients": [
+        {
+          "id": 1,
+          "ingredient": "Pão de cachorro-quente",
+          "quantity": "4 unidades"
+        },
+        {
+          "id": 2,
+          "ingredient": "Salsicha",
+          "quantity": "4 unidades"
+        },
+        {
+          "id": 3,
+          "ingredient": "Molho de tomate",
+          "quantity": "1 xícara"
+        },
+        {
+          "id": 4,
+          "ingredient": "Cebola",
+          "quantity": "1 unidade, picada"
+        },
+        {
+          "id": 5,
+          "ingredient": "Picles",
+          "quantity": "4 unidades, fatiados"
+        },
+        {
+          "id": 6,
+          "ingredient": "Mostarda",
+          "quantity": "a gosto"
+        },
+        {
+          "id": 7,
+          "ingredient": "Ketchup",
+          "quantity": "a gosto"
+        },
+        {
+          "id": 8,
+          "ingredient": "Maionese",
+          "quantity": "a gosto"
+        },
+        {
+          "id": 9,
+          "ingredient": "Batata palha",
+          "quantity": "a gosto"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "instruction": "Em uma panela, aqueça o molho de tomate e adicione a cebola picada. Cozinhe por alguns minutos até a cebola ficar macia."
+        },
+        {
+          "id": 2,
+          "instruction": "Adicione as salsichas ao molho de tomate e cozinhe por cerca de 10 minutos, ou até que estejam aquecidas por completo."
+        },
+        {
+          "id": 3,
+          "instruction": "Enquanto as salsichas cozinham, aqueça os pães de cachorro-quente."
+        },
+        {
+          "id": 4,
+          "instruction": "Coloque uma salsicha em cada pão de cachorro-quente."
+        },
+        {
+          "id": 5,
+          "instruction": "Cubra as salsichas com o molho de tomate e cebola."
+        },
+        {
+          "id": 6,
+          "instruction": "Adicione fatias de picles, mostarda, ketchup e maionese a gosto."
+        },
+        {
+          "id": 7,
+          "instruction": "Finalize com batata palha por cima."
+        },
+        {
+          "id": 8,
+          "instruction": "Sirva os cachorros-quentes quentes acompanhados de refrigerante ou suco."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Coxinha",
+      "category": "salgado",
+      "time": "1 hora",
+      "image": "https://i.postimg.cc/WzKWFG1x/Coxinha.png",
+      "calories": 300,
+      "macroNutrients": [
+        {
+          "id": 1,
+          "MacroNutrient": "Carboidratos",
+          "Quantity": 25
+        },
+        {
+          "id": 2,
+          "MacroNutrient": "Proteínas",
+          "Quantity": 10
+        },
+        {
+          "id": 3,
+          "MacroNutrient": "Gorduras",
+          "Quantity": 15
+        }
+      ],
+      "ingredients": [
+        {
+          "id": 1,
+          "ingredient": "Frango cozido e desfiado",
+          "quantity": "2 xícaras"
+        },
+        {
+          "id": 2,
+          "ingredient": "Caldo de frango",
+          "quantity": "2 xícaras"
+        },
+        {
+          "id": 3,
+          "ingredient": "Manteiga",
+          "quantity": "2 colheres de sopa"
+        },
+        {
+          "id": 4,
+          "ingredient": "Cebola",
+          "quantity": "1 unidade, picada"
+        },
+        {
+          "id": 5,
+          "ingredient": "Alho",
+          "quantity": "2 dentes, picados"
+        },
+        {
+          "id": 6,
+          "ingredient": "Farinha de trigo",
+          "quantity": "2 xícaras"
+        },
+        {
+          "id": 7,
+          "ingredient": "Sal",
+          "quantity": "1 colher de chá"
+        },
+        {
+          "id": 8,
+          "ingredient": "Pimenta-do-reino",
+          "quantity": "1/2 colher de chá"
+        },
+        {
+          "id": 9,
+          "ingredient": "Leite",
+          "quantity": "2 xícaras"
+        },
+        {
+          "id": 10,
+          "ingredient": "Ovo",
+          "quantity": "2 unidades"
+        },
+        {
+          "id": 11,
+          "ingredient": "Farinha de rosca",
+          "quantity": "2 xícaras"
+        },
+        {
+          "id": 12,
+          "ingredient": "Óleo vegetal",
+          "quantity": "para fritar"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "instruction": "Em uma panela, derreta a manteiga e refogue a cebola e o alho até ficarem macios."
+        },
+        {
+          "id": 2,
+          "instruction": "Adicione o frango desfiado e refogue por alguns minutos."
+        },
+        {
+          "id": 3,
+          "instruction": "Em outra panela, aqueça o caldo de frango até ferver."
+        },
+        {
+          "id": 4,
+          "instruction": "Adicione a farinha de trigo, o sal e a pimenta à panela com o frango e misture bem."
+        },
+        {
+          "id": 5,
+          "instruction": "Cozinhe a massa em fogo baixo por cerca de 5 minutos, mexendo sempre, até que ela desgrude do fundo da panela."
+        },
+        {
+          "id": 6,
+          "instruction": "Retire a massa do fogo e deixe esfriar um pouco."
+        },
+        {
+          "id": 7,
+          "instruction": "Com as mãos untadas, modele as coxinhas, recheando-as com o frango."
+        },
+        {
+          "id": 8,
+          "instruction": "Em um prato fundo, bata os ovos e reserve."
+        },
+        {
+          "id": 9,
+          "instruction": "Passe as coxinhas na farinha de rosca, em seguida, nos ovos batidos e novamente na farinha de rosca."
+        },
+        {
+          "id": 10,
+          "instruction": "Aqueça o óleo em uma panela e frite as coxinhas até ficarem douradas."
+        },
+        {
+          "id": 11,
+          "instruction": "Retire as coxinhas do óleo e coloque-as sobre papel-toalha para escorrer o excesso de óleo."
+        },
+        {
+          "id": 12,
+          "instruction": "Sirva as coxinhas quentes e aproveite!"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Spaghetti",
+      "category": "salgado",
+      "time": "30 minutos",
+      "image": "https://i.postimg.cc/NjXVXzTD/Spaghetti.png",
+      "calories": 450,
+      "macroNutrients": [
+        {
+          "id": 1,
+          "MacroNutrient": "Carboidratos",
+          "Quantity": 80
+        },
+        {
+          "id": 2,
+          "MacroNutrient": "Proteínas",
+          "Quantity": 10
+        },
+        {
+          "id": 3,
+          "MacroNutrient": "Gorduras",
+          "Quantity": 8
+        }
+      ],
+      "ingredients": [
+        {
+          "id": 1,
+          "ingredient": "Spaghetti",
+          "quantity": "500g"
+        },
+        {
+          "id": 2,
+          "ingredient": "Água",
+          "quantity": "1 litro"
+        },
+        {
+          "id": 3,
+          "ingredient": "Sal",
+          "quantity": "2 colheres de chá"
+        },
+        {
+          "id": 4,
+          "ingredient": "Azeite de oliva",
+          "quantity": "2 colheres de sopa"
+        },
+        {
+          "id": 5,
+          "ingredient": "Alho",
+          "quantity": "4 dentes, picados"
+        },
+        {
+          "id": 6,
+          "ingredient": "Molho de tomate",
+          "quantity": "2 xícaras"
+        },
+        {
+          "id": 7,
+          "ingredient": "Manjericão",
+          "quantity": "1/4 de xícara, picado"
+        },
+        {
+          "id": 8,
+          "ingredient": "Queijo parmesão",
+          "quantity": "1/2 xícara, ralado"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "instruction": "Em uma panela grande, aqueça a água com sal e deixe ferver."
+        },
+        {
+          "id": 2,
+          "instruction": "Adicione o spaghetti à água fervente e cozinhe até ficar al dente, seguindo as instruções da embalagem."
+        },
+        {
+          "id": 3,
+          "instruction": "Enquanto isso, em uma frigideira grande, aqueça o azeite de oliva e refogue o alho até dourar."
+        },
+        {
+          "id": 4,
+          "instruction": "Adicione o molho de tomate à frigideira e aqueça até ficar quente."
+        },
+        {
+          "id": 5,
+          "instruction": "Escorra o spaghetti cozido e adicione-o à frigideira com o molho."
+        },
+        {
+          "id": 6,
+          "instruction": "Misture bem o spaghetti com o molho e deixe cozinhar por mais 2-3 minutos."
+        },
+        {
+          "id": 7,
+          "instruction": "Desligue o fogo e adicione o manjericão picado, misturando delicadamente."
+        },
+        {
+          "id": 8,
+          "instruction": "Sirva o spaghetti quente, polvilhado com queijo parmesão ralado."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Sushi",
+      "category": "no gluten",
+      "time": "1-2 horas",
+      "image": "https://i.postimg.cc/xThhc2kq/Sushi.png",
+      "calories": 400,
+      "macroNutrients": [
+        {
+          "id": 1,
+          "MacroNutrient": "Carboidratos",
+          "Quantity": 50
+        },
+        {
+          "id": 2,
+          "MacroNutrient": "Proteínas",
+          "Quantity": 15
+        },
+        {
+          "id": 3,
+          "MacroNutrient": "Gorduras",
+          "Quantity": 10
+        }
+      ],
+      "ingredients": [
+        {
+          "id": 1,
+          "ingredient": "Arroz japonês",
+          "quantity": "2 xícaras"
+        },
+        {
+          "id": 2,
+          "ingredient": "Alga nori",
+          "quantity": "10 folhas"
+        },
+        {
+          "id": 3,
+          "ingredient": "Peixe fresco (salmão, atum, etc.)",
+          "quantity": "300g, cortado em fatias"
+        },
+        {
+          "id": 4,
+          "ingredient": "Legumes variados (pepino, cenoura, abacate, etc.)",
+          "quantity": "200g, cortados em tiras"
+        },
+        {
+          "id": 5,
+          "ingredient": "Vinagre de arroz",
+          "quantity": "3 colheres de sopa"
+        },
+        {
+          "id": 6,
+          "ingredient": "Açúcar",
+          "quantity": "2 colheres de sopa"
+        },
+        {
+          "id": 7,
+          "ingredient": "Sal",
+          "quantity": "1 colher de chá"
+        },
+        {
+          "id": 8,
+          "ingredient": "Molho de soja",
+          "quantity": "para servir"
+        },
+        {
+          "id": 9,
+          "ingredient": "Wasabi",
+          "quantity": "para servir"
+        },
+        {
+          "id": 10,
+          "ingredient": "Gengibre em conserva",
+          "quantity": "para servir"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "instruction": "Lave o arroz japonês em água fria até que a água esteja clara."
+        },
+        {
+          "id": 2,
+          "instruction": "Cozinhe o arroz em uma panela com água na proporção de 1:1,5 (1 xícara de arroz para 1,5 xícaras de água)."
+        },
+        {
+          "id": 3,
+          "instruction": "Enquanto o arroz cozinha, misture o vinagre de arroz, o açúcar e o sal em uma tigela pequena."
+        },
+        {
+          "id": 4,
+          "instruction": "Quando o arroz estiver cozido, retire do fogo e deixe descansar por 10 minutos."
+        },
+        {
+          "id": 5,
+          "instruction": "Transfira o arroz cozido para uma tigela grande e despeje a mistura de vinagre sobre o arroz. Misture delicadamente para combinar."
+        },
+        {
+          "id": 6,
+          "instruction": "Deixe o arroz esfriar completamente antes de prosseguir."
+        },
+        {
+          "id": 7,
+          "instruction": "Coloque uma folha de alga nori em uma esteira de sushi."
+        },
+        {
+          "id": 8,
+          "instruction": "Molhe as mãos em água para evitar que o arroz grude. Espalhe uma camada fina de arroz sobre a alga nori, deixando uma borda vazia na parte superior."
+        },
+        {
+          "id": 9,
+          "instruction": "Coloque fatias de peixe e tiras de legumes no centro do arroz."
+        },
+        {
+          "id": 10,
+          "instruction": "Enrole a esteira de sushi, aplicando pressão suave para compactar o rolo."
+        },
+        {
+          "id": 11,
+          "instruction": "Repita o processo para fazer mais rolos de sushi com os ingredientes restantes."
+        },
+        {
+          "id": 12,
+          "instruction": "Corte os rolos de sushi em fatias usando uma faca afiada."
+        },
+        {
+          "id": 13,
+          "instruction": "Sirva o sushi com molho de soja, wasabi e gengibre em conserva."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Yakissoba",
+      "category": "salgado",
+      "time": "30 minutos",
+      "image": "https://i.postimg.cc/rFK7Vmwv/Yakissoba.png",
+      "calories": 550,
+      "macroNutrients": [
+        {
+          "id": 1,
+          "MacroNutrient": "Carboidratos",
+          "Quantity": 60
+        },
+        {
+          "id": 2,
+          "MacroNutrient": "Proteínas",
+          "Quantity": 20
+        },
+        {
+          "id": 3,
+          "MacroNutrient": "Gorduras",
+          "Quantity": 15
+        }
+      ],
+      "ingredients": [
+        {
+          "id": 1,
+          "ingredient": "Macarrão para yakissoba",
+          "quantity": "300g"
+        },
+        {
+          "id": 2,
+          "ingredient": "Carne (frango, bovina ou suína)",
+          "quantity": "300g, cortada em tiras"
+        },
+        {
+          "id": 3,
+          "ingredient": "Legumes variados (cenoura, repolho, pimentão, brócolis, etc.)",
+          "quantity": "400g, cortados em tiras"
+        },
+        {
+          "id": 4,
+          "ingredient": "Cebola",
+          "quantity": "1 unidade, cortada em tiras"
+        },
+        {
+          "id": 5,
+          "ingredient": "Alho",
+          "quantity": "3 dentes, picados"
+        },
+        {
+          "id": 6,
+          "ingredient": "Molho shoyu",
+          "quantity": "4 colheres de sopa"
+        },
+        {
+          "id": 7,
+          "ingredient": "Óleo vegetal",
+          "quantity": "2 colheres de sopa"
+        },
+        {
+          "id": 8,
+          "ingredient": "Amido de milho",
+          "quantity": "2 colheres de sopa, diluídas em água"
+        },
+        {
+          "id": 9,
+          "ingredient": "Água",
+          "quantity": "1 xícara"
+        },
+        {
+          "id": 10,
+          "ingredient": "Sal",
+          "quantity": "a gosto"
+        },
+        {
+          "id": 11,
+          "ingredient": "Pimenta-do-reino",
+          "quantity": "a gosto"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "instruction": "Cozinhe o macarrão para yakissoba conforme as instruções da embalagem. Escorra e reserve."
+        },
+        {
+          "id": 2,
+          "instruction": "Em uma frigideira ou wok, aqueça o óleo vegetal em fogo alto."
+        },
+        {
+          "id": 3,
+          "instruction": "Adicione a carne e frite até dourar."
+        },
+        {
+          "id": 4,
+          "instruction": "Acrescente a cebola e o alho e refogue por alguns minutos."
+        },
+        {
+          "id": 5,
+          "instruction": "Adicione os legumes e continue refogando até ficarem macios, porém crocantes."
+        },
+        {
+          "id": 6,
+          "instruction": "Em uma tigela, misture o molho shoyu, a água, o amido de milho diluído, o sal e a pimenta-do-reino."
+        },
+        {
+          "id": 7,
+          "instruction": "Despeje a mistura de molho sobre os ingredientes na frigideira e cozinhe por mais alguns minutos até o molho engrossar e incorporar todos os ingredientes."
+        },
+        {
+          "id": 8,
+          "instruction": "Adicione o macarrão cozido à frigideira e misture bem para que fique envolvido no molho e nos ingredientes."
+        },
+        {
+          "id": 9,
+          "instruction": "Cozinhe por mais alguns minutos até que tudo esteja aquecido."
+        },
+        {
+          "id": 10,
+          "instruction": "Sirva o yakissoba quente e aproveite!"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Bolo de Chocolate",
+      "category": "doce",
+      "time": "1 hora",
+      "image": "https://i.postimg.cc/zBxP5ZZz/Hamburguer.png",
+      "calories": 350,
+      "macroNutrients": [
+        {
+          "id": 1,
+          "MacroNutrient": "Carboidratos",
+          "Quantity": 40
+        },
+        {
+          "id": 2,
+          "MacroNutrient": "Proteínas",
+          "Quantity": 5
+        },
+        {
+          "id": 3,
+          "MacroNutrient": "Gorduras",
+          "Quantity": 20
+        }
+      ],
+      "ingredients": [
+        {
+          "id": 1,
+          "ingredient": "Farinha de trigo",
+          "quantity": "2 xícaras"
+        },
+        {
+          "id": 2,
+          "ingredient": "Açúcar",
+          "quantity": "1 e 1/2 xícaras"
+        },
+        {
+          "id": 3,
+          "ingredient": "Cacau em pó",
+          "quantity": "3/4 xícara"
+        },
+        {
+          "id": 4,
+          "ingredient": "Leite",
+          "quantity": "1 xícara"
+        },
+        {
+          "id": 5,
+          "ingredient": "Óleo vegetal",
+          "quantity": "1/2 xícara"
+        },
+        {
+          "id": 6,
+          "ingredient": "Ovos",
+          "quantity": "2 unidades"
+        },
+        {
+          "id": 7,
+          "ingredient": "Fermento em pó",
+          "quantity": "1 colher de sopa"
+        },
+        {
+          "id": 8,
+          "ingredient": "Sal",
+          "quantity": "1/2 colher de chá"
+        },
+        {
+          "id": 9,
+          "ingredient": "Baunilha",
+          "quantity": "1 colher de chá"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "instruction": "Pré-aqueça o forno a 180°C e unte uma forma redonda."
+        },
+        {
+          "id": 2,
+          "instruction": "Em uma tigela, peneire a farinha, o açúcar, o cacau, o fermento e o sal. Misture bem."
+        },
+        {
+          "id": 3,
+          "instruction": "Adicione o leite, o óleo, os ovos e a baunilha à mistura seca. Bata até obter uma massa homogênea."
+        },
+        {
+          "id": 4,
+          "instruction": "Despeje a massa na forma preparada e leve ao forno por cerca de 30-35 minutos, ou até que um palito inserido no centro saia limpo."
+        },
+        {
+          "id": 5,
+          "instruction": "Retire o bolo do forno e deixe esfriar antes de desenformar."
+        },
+        {
+          "id": 6,
+          "instruction": "Decore o bolo com cobertura de chocolate ou açúcar de confeiteiro, se desejar."
+        },
+        {
+          "id": 7,
+          "instruction": "Sirva em fatias e aproveite!"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Pudim de Leite Condensado",
+      "category": "doce",
+      "time": "1 hora",
+      "image": "https://i.postimg.cc/zBxP5ZZz/Hamburguer.png",
+      "calories": 300,
+      "macroNutrients": [
+        {
+          "id": 1,
+          "MacroNutrient": "Carboidratos",
+          "Quantity": 40
+        },
+        {
+          "id": 2,
+          "MacroNutrient": "Proteínas",
+          "Quantity": 8
+        },
+        {
+          "id": 3,
+          "MacroNutrient": "Gorduras",
+          "Quantity": 10
+        }
+      ],
+      "ingredients": [
+        {
+          "id": 1,
+          "ingredient": "Leite condensado",
+          "quantity": "1 lata"
+        },
+        {
+          "id": 2,
+          "ingredient": "Leite",
+          "quantity": "2 medidas (da lata de leite condensado)"
+        },
+        {
+          "id": 3,
+          "ingredient": "Ovos",
+          "quantity": "3 unidades"
+        },
+        {
+          "id": 4,
+          "ingredient": "Açúcar",
+          "quantity": "1 xícara"
+        },
+        {
+          "id": 5,
+          "ingredient": "Água",
+          "quantity": "1/2 xícara"
+        },
+        {
+          "id": 6,
+          "ingredient": "Baunilha",
+          "quantity": "1 colher de chá"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "instruction": "Pré-aqueça o forno a 180°C."
+        },
+        {
+          "id": 2,
+          "instruction": "Em uma forma de pudim, derreta o açúcar com a água em fogo baixo até obter uma calda dourada. Cuidado para não queimar."
+        },
+        {
+          "id": 3,
+          "instruction": "Espalhe a calda de açúcar caramelizado pela forma, cobrindo todo o fundo."
+        },
+        {
+          "id": 4,
+          "instruction": "No liquidificador, bata o leite condensado, o leite, os ovos e a baunilha até ficar homogêneo."
+        },
+        {
+          "id": 5,
+          "instruction": "Despeje a mistura na forma caramelizada."
+        },
+        {
+          "id": 6,
+          "instruction": "Cubra a forma com papel alumínio e leve ao forno em banho-maria por aproximadamente 1 hora, ou até que o pudim esteja firme."
+        },
+        {
+          "id": 7,
+          "instruction": "Retire o papel alumínio e deixe o pudim esfriar completamente antes de desenformar."
+        },
+        {
+          "id": 8,
+          "instruction": "Leve à geladeira por algumas horas ou até que esteja bem gelado."
+        },
+        {
+          "id": 9,
+          "instruction": "Desenforme o pudim em um prato de servir e sirva gelado."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Torta de Maçã",
+      "category": "doce",
+      "time": "1 hora",
+      "image": "https://i.postimg.cc/zBxP5ZZz/Hamburguer.png",
+      "calories": 400,
+      "macroNutrients": [
+        {
+          "id": 1,
+          "MacroNutrient": "Carboidratos",
+          "Quantity": 55
+        },
+        {
+          "id": 2,
+          "MacroNutrient": "Proteínas",
+          "Quantity": 5
+        },
+        {
+          "id": 3,
+          "MacroNutrient": "Gorduras",
+          "Quantity": 18
+        }
+      ],
+      "ingredients": [
+        {
+          "id": 1,
+          "ingredient": "Maçãs",
+          "quantity": "4 unidades"
+        },
+        {
+          "id": 2,
+          "ingredient": "Açúcar",
+          "quantity": "1/2 xícara"
+        },
+        {
+          "id": 3,
+          "ingredient": "Farinha de trigo",
+          "quantity": "1 e 1/2 xícaras"
+        },
+        {
+          "id": 4,
+          "ingredient": "Manteiga",
+          "quantity": "1/2 xícara (gelada)"
+        },
+        {
+          "id": 5,
+          "ingredient": "Canela em pó",
+          "quantity": "1 colher de chá"
+        },
+        {
+          "id": 6,
+          "ingredient": "Suco de limão",
+          "quantity": "1 colher de sopa"
+        },
+        {
+          "id": 7,
+          "ingredient": "Sal",
+          "quantity": "1/4 colher de chá"
+        },
+        {
+          "id": 8,
+          "ingredient": "Água",
+          "quantity": "2 colheres de sopa (gelada)"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "instruction": "Pré-aqueça o forno a 200°C."
+        },
+        {
+          "id": 2,
+          "instruction": "Descasque e fatie as maçãs em fatias finas."
+        },
+        {
+          "id": 3,
+          "instruction": "Em uma tigela grande, misture as maçãs fatiadas com o suco de limão, o açúcar e a canela. Reserve."
+        },
+        {
+          "id": 4,
+          "instruction": "Em uma tigela separada, misture a farinha de trigo e o sal. Adicione a manteiga gelada em cubos e misture com um cortador de massa ou com as pontas dos dedos até obter uma textura de migalhas."
+        },
+        {
+          "id": 5,
+          "instruction": "Adicione a água gelada aos poucos, misturando até formar uma massa homogênea. Não amasse demais."
+        },
+        {
+          "id": 6,
+          "instruction": "Divida a massa em duas partes, sendo uma maior que a outra."
+        },
+        {
+          "id": 7,
+          "instruction": "Em uma superfície levemente enfarinhada, abra a parte maior da massa com um rolo até obter um círculo grande o suficiente para forrar o fundo e as laterais de uma forma de torta."
+        },
+        {
+          "id": 8,
+          "instruction": "Coloque a massa na forma e pressione levemente para ajustar."
+        },
+        {
+          "id": 9,
+          "instruction": "Despeje as maçãs fatiadas sobre a massa na forma, espalhando de maneira uniforme."
+        },
+        {
+          "id": 10,
+          "instruction": "Abra a parte menor da massa com o rolo e corte em tiras para fazer a cobertura da torta."
+        },
+        {
+          "id": 11,
+          "instruction": "Coloque as tiras de massa sobre as maçãs em um padrão entrelaçado, formando uma grade."
+        },
+        {
+          "id": 12,
+          "instruction": "Pressione as bordas da massa para selar a torta."
+        },
+        {
+          "id": 13,
+          "instruction": "Asse a torta no forno pré-aquecido por aproximadamente 40-45 minutos, ou até que a massa esteja dourada e as maçãs estejam macias."
+        },
+        {
+          "id": 14,
+          "instruction": "Retire do forno e deixe esfriar antes de servir."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Brownie de Chocolate",
+      "category": "doce",
+      "time": "45 minutos",
+      "image": "https://i.postimg.cc/zBxP5ZZz/Hamburguer.png",
+      "calories": 250,
+      "macroNutrients": [
+        {
+          "id": 1,
+          "MacroNutrient": "Carboidratos",
+          "Quantity": 35
+        },
+        {
+          "id": 2,
+          "MacroNutrient": "Proteínas",
+          "Quantity": 4
+        },
+        {
+          "id": 3,
+          "MacroNutrient": "Gorduras",
+          "Quantity": 12
+        }
+      ],
+      "ingredients": [
+        {
+          "id": 1,
+          "ingredient": "Chocolate meio amargo",
+          "quantity": "200g"
+        },
+        {
+          "id": 2,
+          "ingredient": "Manteiga",
+          "quantity": "1/2 xícara"
+        },
+        {
+          "id": 3,
+          "ingredient": "Açúcar",
+          "quantity": "1 xícara"
+        },
+        {
+          "id": 4,
+          "ingredient": "Ovos",
+          "quantity": "2 unidades"
+        },
+        {
+          "id": 5,
+          "ingredient": "Extrato de baunilha",
+          "quantity": "1 colher de chá"
+        },
+        {
+          "id": 6,
+          "ingredient": "Farinha de trigo",
+          "quantity": "3/4 xícara"
+        },
+        {
+          "id": 7,
+          "ingredient": "Cacau em pó",
+          "quantity": "2 colheres de sopa"
+        },
+        {
+          "id": 8,
+          "ingredient": "Sal",
+          "quantity": "1/4 colher de chá"
+        },
+        {
+          "id": 9,
+          "ingredient": "Nozes picadas",
+          "quantity": "1/2 xícara (opcional)"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "instruction": "Pré-aqueça o forno a 180°C e unte uma forma quadrada."
+        },
+        {
+          "id": 2,
+          "instruction": "Em uma tigela, derreta o chocolate meio amargo e a manteiga em banho-maria ou no microondas."
+        },
+        {
+          "id": 3,
+          "instruction": "Adicione o açúcar à mistura de chocolate e manteiga derretidos, e misture bem."
+        },
+        {
+          "id": 4,
+          "instruction": "Acrescente os ovos um de cada vez, mexendo bem após cada adição."
+        },
+        {
+          "id": 5,
+          "instruction": "Adicione o extrato de baunilha e misture."
+        },
+        {
+          "id": 6,
+          "instruction": "Em outra tigela, misture a farinha de trigo, o cacau em pó e o sal."
+        },
+        {
+          "id": 7,
+          "instruction": "Adicione a mistura de farinha aos ingredientes líquidos e mexa até incorporar bem."
+        },
+        {
+          "id": 8,
+          "instruction": "Se desejar, adicione as nozes picadas e misture."
+        },
+        {
+          "id": 9,
+          "instruction": "Despeje a massa na forma preparada e espalhe uniformemente."
+        },
+        {
+          "id": 10,
+          "instruction": "Asse no forno pré-aquecido por aproximadamente 25-30 minutos, ou até que um palito inserido no centro saia com algumas migalhas úmidas."
+        },
+        {
+          "id": 11,
+          "instruction": "Retire do forno e deixe esfriar completamente antes de cortar em quadrados e servir."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Tiramisu",
+      "category": "doce",
+      "time": "30 minutos",
+      "image": "https://i.postimg.cc/zBxP5ZZz/Hamburguer.png",
+      "calories": 350,
+      "macroNutrients": [
+        {
+          "id": 1,
+          "MacroNutrient": "Carboidratos",
+          "Quantity": 30
+        },
+        {
+          "id": 2,
+          "MacroNutrient": "Proteínas",
+          "Quantity": 6
+        },
+        {
+          "id": 3,
+          "MacroNutrient": "Gorduras",
+          "Quantity": 20
+        }
+      ],
+      "ingredients": [
+        {
+          "id": 1,
+          "ingredient": "Biscoitos tipo ladyfinger",
+          "quantity": "200g"
+        },
+        {
+          "id": 2,
+          "ingredient": "Café forte",
+          "quantity": "1 xícara"
+        },
+        {
+          "id": 3,
+          "ingredient": "Licor de café",
+          "quantity": "2 colheres de sopa (opcional)"
+        },
+        {
+          "id": 4,
+          "ingredient": "Queijo mascarpone",
+          "quantity": "250g"
+        },
+        {
+          "id": 5,
+          "ingredient": "Açúcar",
+          "quantity": "1/2 xícara"
+        },
+        {
+          "id": 6,
+          "ingredient": "Ovos",
+          "quantity": "2 unidades"
+        },
+        {
+          "id": 7,
+          "ingredient": "Cacau em pó",
+          "quantity": "2 colheres de sopa"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "instruction": "Em um prato fundo, misture o café forte com o licor de café (se estiver usando)."
+        },
+        {
+          "id": 2,
+          "instruction": "Em uma tigela, bata as gemas dos ovos com o açúcar até obter uma mistura clara e fofa."
+        },
+        {
+          "id": 3,
+          "instruction": "Adicione o queijo mascarpone à mistura de gemas e açúcar, e misture até ficar homogêneo."
+        },
+        {
+          "id": 4,
+          "instruction": "Em outra tigela, bata as claras em neve até formar picos firmes."
+        },
+        {
+          "id": 5,
+          "instruction": "Com cuidado, incorpore as claras em neve à mistura de queijo mascarpone, dobrando delicadamente até ficar bem combinado."
+        },
+        {
+          "id": 6,
+          "instruction": "Mergulhe rapidamente os biscoitos tipo ladyfinger no café preparado e coloque-os em uma camada no fundo de uma forma retangular ou em taças individuais."
+        },
+        {
+          "id": 7,
+          "instruction": "Cubra os biscoitos com uma camada da mistura de queijo mascarpone."
+        },
+        {
+          "id": 8,
+          "instruction": "Repita as camadas de biscoitos e creme até acabarem os ingredientes, terminando com uma camada de creme."
+        },
+        {
+          "id": 9,
+          "instruction": "Polvilhe o cacau em pó sobre a camada final de creme."
+        },
+        {
+          "id": 10,
+          "instruction": "Leve à geladeira por pelo menos 4 horas, ou preferencialmente durante a noite, para firmar e desenvolver os sabores."
+        },
+        {
+          "id": 11,
+          "instruction": "Sirva bem gelado."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Pavê de Chocolate",
+      "category": "doce",
+      "time": "1 hora",
+      "image": "https://i.postimg.cc/zBxP5ZZz/Hamburguer.png",
+      "calories": 300,
+      "macroNutrients": [
+        {
+          "id": 1,
+          "MacroNutrient": "Carboidratos",
+          "Quantity": 40
+        },
+        {
+          "id": 2,
+          "MacroNutrient": "Proteínas",
+          "Quantity": 5
+        },
+        {
+          "id": 3,
+          "MacroNutrient": "Gorduras",
+          "Quantity": 15
+        }
+      ],
+      "ingredients": [
+        {
+          "id": 1,
+          "ingredient": "Biscoitos tipo maisena",
+          "quantity": "200g"
+        },
+        {
+          "id": 2,
+          "ingredient": "Leite",
+          "quantity": "1 e 1/2 xícaras"
+        },
+        {
+          "id": 3,
+          "ingredient": "Açúcar",
+          "quantity": "1/2 xícara"
+        },
+        {
+          "id": 4,
+          "ingredient": "Amido de milho",
+          "quantity": "2 colheres de sopa"
+        },
+        {
+          "id": 5,
+          "ingredient": "Chocolate em pó",
+          "quantity": "3 colheres de sopa"
+        },
+        {
+          "id": 6,
+          "ingredient": "Manteiga",
+          "quantity": "1 colher de sopa"
+        },
+        {
+          "id": 7,
+          "ingredient": "Creme de leite",
+          "quantity": "1 lata"
+        },
+        {
+          "id": 8,
+          "ingredient": "Chocolate meio amargo",
+          "quantity": "100g"
+        },
+        {
+          "id": 9,
+          "ingredient": "Raspas de chocolate",
+          "quantity": "para decorar"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "instruction": "Em uma panela, misture o leite, o açúcar, o amido de milho e o chocolate em pó."
+        },
+        {
+          "id": 2,
+          "instruction": "Leve ao fogo médio, mexendo sempre, até engrossar e formar um creme."
+        },
+        {
+          "id": 3,
+          "instruction": "Retire do fogo e adicione a manteiga e o creme de leite, misturando bem até ficar homogêneo."
+        },
+        {
+          "id": 4,
+          "instruction": "Em um refratário, faça uma camada de biscoitos tipo maisena no fundo."
+        },
+        {
+          "id": 5,
+          "instruction": "Despeje uma parte do creme sobre os biscoitos e espalhe bem."
+        },
+        {
+          "id": 6,
+          "instruction": "Repita as camadas de biscoitos e creme até acabarem os ingredientes, terminando com uma camada de creme."
+        },
+        {
+          "id": 7,
+          "instruction": "Derreta o chocolate meio amargo em banho-maria ou no microondas."
+        },
+        {
+          "id": 8,
+          "instruction": "Despeje o chocolate derretido sobre a última camada de creme e espalhe delicadamente."
+        },
+        {
+          "id": 9,
+          "instruction": "Decore com raspas de chocolate."
+        },
+        {
+          "id": 10,
+          "instruction": "Leve à geladeira por pelo menos 2 horas, ou até ficar bem gelado e firme."
+        },
+        {
+          "id": 11,
+          "instruction": "Sirva gelado."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Mousse de Maracujá",
+      "category": "doce",
+      "time": "15 minutos",
+      "image": "https://i.postimg.cc/zBxP5ZZz/Hamburguer.png",
+      "calories": 200,
+      "macroNutrients": [
+        {
+          "id": 1,
+          "MacroNutrient": "Carboidratos",
+          "Quantity": 30
+        },
+        {
+          "id": 2,
+          "MacroNutrient": "Proteínas",
+          "Quantity": 3
+        },
+        {
+          "id": 3,
+          "MacroNutrient": "Gorduras",
+          "Quantity": 8
+        }
+      ],
+      "ingredients": [
+        {
+          "id": 1,
+          "ingredient": "Polpa de maracujá",
+          "quantity": "1 xícara"
+        },
+        {
+          "id": 2,
+          "ingredient": "Leite condensado",
+          "quantity": "1 lata"
+        },
+        {
+          "id": 3,
+          "ingredient": "Creme de leite",
+          "quantity": "1 lata"
+        },
+        {
+          "id": 4,
+          "ingredient": "Gelatina incolor",
+          "quantity": "1 envelope"
+        },
+        {
+          "id": 5,
+          "ingredient": "Água",
+          "quantity": "1/2 xícara"
+        },
+        {
+          "id": 6,
+          "ingredient": "Açúcar",
+          "quantity": "2 colheres de sopa"
+        },
+        {
+          "id": 7,
+          "ingredient": "Sementes de maracujá",
+          "quantity": "para decorar"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "instruction": "Em um liquidificador, bata a polpa de maracujá e o leite condensado até ficar homogêneo."
+        },
+        {
+          "id": 2,
+          "instruction": "Adicione o creme de leite e bata novamente até misturar bem."
+        },
+        {
+          "id": 3,
+          "instruction": "Prepare a gelatina incolor conforme as instruções da embalagem, dissolvendo-a na água."
+        },
+        {
+          "id": 4,
+          "instruction": "Adicione a gelatina dissolvida à mistura de maracujá no liquidificador e bata novamente até incorporar."
+        },
+        {
+          "id": 5,
+          "instruction": "Em uma panela, leve o açúcar ao fogo baixo e deixe derreter até formar um caramelo."
+        },
+        {
+          "id": 6,
+          "instruction": "Despeje o caramelo em uma forma ou em taças individuais, espalhando-o bem pelo fundo."
+        },
+        {
+          "id": 7,
+          "instruction": "Despeje a mousse de maracujá sobre o caramelo, dividindo igualmente entre as taças, se estiver usando."
+        },
+        {
+          "id": 8,
+          "instruction": "Leve à geladeira por pelo menos 2 horas, ou até ficar bem gelado e firme."
+        },
+        {
+          "id": 9,
+          "instruction": "Decore com sementes de maracujá antes de servir."
+        },
+        {
+          "id": 10,
+          "instruction": "Sirva gelado."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Pudim de Leite Condensado",
+      "category": "doce",
+      "time": "1 hora",
+      "image": "https://i.postimg.cc/zBxP5ZZz/Hamburguer.png",
+      "calories": 250,
+      "macroNutrients": [
+        {
+          "id": 1,
+          "MacroNutrient": "Carboidratos",
+          "Quantity": 40
+        },
+        {
+          "id": 2,
+          "MacroNutrient": "Proteínas",
+          "Quantity": 6
+        },
+        {
+          "id": 3,
+          "MacroNutrient": "Gorduras",
+          "Quantity": 8
+        }
+      ],
+      "ingredients": [
+        {
+          "id": 1,
+          "ingredient": "Leite condensado",
+          "quantity": "1 lata"
+        },
+        {
+          "id": 2,
+          "ingredient": "Leite",
+          "quantity": "1 e 1/2 xícaras"
+        },
+        {
+          "id": 3,
+          "ingredient": "Ovos",
+          "quantity": "4 unidades"
+        },
+        {
+          "id": 4,
+          "ingredient": "Açúcar",
+          "quantity": "1 xícara"
+        },
+        {
+          "id": 5,
+          "ingredient": "Água",
+          "quantity": "1/2 xícara"
+        },
+        {
+          "id": 6,
+          "ingredient": "Essência de baunilha",
+          "quantity": "1 colher de chá"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "instruction": "Preaqueça o forno a 180°C."
+        },
+        {
+          "id": 2,
+          "instruction": "Em uma panela, misture o açúcar e a água e leve ao fogo médio, sem mexer, até formar um caramelo dourado."
+        },
+        {
+          "id": 3,
+          "instruction": "Despeje o caramelo em uma forma de pudim e espalhe-o bem pelo fundo e pelas laterais da forma."
+        },
+        {
+          "id": 4,
+          "instruction": "Em um liquidificador, bata o leite condensado, o leite, os ovos e a essência de baunilha até ficar homogêneo."
+        },
+        {
+          "id": 5,
+          "instruction": "Despeje a mistura do pudim na forma caramelizada."
+        },
+        {
+          "id": 6,
+          "instruction": "Cubra a forma com papel alumínio e leve ao forno preaquecido em banho-maria por aproximadamente 1 hora, ou até que o pudim esteja firme."
+        },
+        {
+          "id": 7,
+          "instruction": "Retire do forno e deixe esfriar completamente."
+        },
+        {
+          "id": 8,
+          "instruction": "Leve à geladeira por pelo menos 4 horas, ou preferencialmente durante a noite, para firmar e desenvolver os sabores."
+        },
+        {
+          "id": 9,
+          "instruction": "Para desenformar, passe uma faca pelas bordas do pudim e vire-o sobre um prato."
+        },
+        {
+          "id": 10,
+          "instruction": "Sirva gelado."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Brigadeiro",
+      "category": "doce",
+      "time": "30 minutos",
+      "image": "https://i.postimg.cc/zBxP5ZZz/Hamburguer.png",
+      "calories": 150,
+      "macroNutrients": [
+        {
+          "id": 1,
+          "MacroNutrient": "Carboidratos",
+          "Quantity": 25
+        },
+        {
+          "id": 2,
+          "MacroNutrient": "Proteínas",
+          "Quantity": 2
+        },
+        {
+          "id": 3,
+          "MacroNutrient": "Gorduras",
+          "Quantity": 6
+        }
+      ],
+      "ingredients": [
+        {
+          "id": 1,
+          "ingredient": "Leite condensado",
+          "quantity": "1 lata"
+        },
+        {
+          "id": 2,
+          "ingredient": "Chocolate em pó",
+          "quantity": "3 colheres de sopa"
+        },
+        {
+          "id": 3,
+          "ingredient": "Manteiga",
+          "quantity": "1 colher de sopa"
+        },
+        {
+          "id": 4,
+          "ingredient": "Granulado de chocolate",
+          "quantity": "para enrolar"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "instruction": "Em uma panela, misture o leite condensado, o chocolate em pó e a manteiga."
+        },
+        {
+          "id": 2,
+          "instruction": "Leve ao fogo baixo e mexa sem parar até a mistura desgrudar do fundo da panela."
+        },
+        {
+          "id": 3,
+          "instruction": "Desligue o fogo e deixe a massa esfriar completamente."
+        },
+        {
+          "id": 4,
+          "instruction": "Com as mãos untadas com manteiga, enrole pequenas porções da massa em formato de bolinhas."
+        },
+        {
+          "id": 5,
+          "instruction": "Passe cada bolinha de brigadeiro no granulado de chocolate, cobrindo completamente."
+        },
+        {
+          "id": 6,
+          "instruction": "Coloque os brigadeiros em forminhas de papel e sirva."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Torta de Limão",
+      "category": "doce",
+      "time": "1 hora",
+      "image": "https://i.postimg.cc/zBxP5ZZz/Hamburguer.png",
+      "calories": 300,
+      "macroNutrients": [
+        {
+          "id": 1,
+          "MacroNutrient": "Carboidratos",
+          "Quantity": 40
+        },
+        {
+          "id": 2,
+          "MacroNutrient": "Proteínas",
+          "Quantity": 5
+        },
+        {
+          "id": 3,
+          "MacroNutrient": "Gorduras",
+          "Quantity": 12
+        }
+      ],
+      "ingredients": [
+        {
+          "id": 1,
+          "ingredient": "Biscoito maisena",
+          "quantity": "200g"
+        },
+        {
+          "id": 2,
+          "ingredient": "Manteiga derretida",
+          "quantity": "100g"
+        },
+        {
+          "id": 3,
+          "ingredient": "Leite condensado",
+          "quantity": "1 lata"
+        },
+        {
+          "id": 4,
+          "ingredient": "Creme de leite",
+          "quantity": "1 lata"
+        },
+        {
+          "id": 5,
+          "ingredient": "Suco de limão",
+          "quantity": "1/2 xícara"
+        },
+        {
+          "id": 6,
+          "ingredient": "Raspas de limão",
+          "quantity": "para decorar"
+        }
+      ],
+      "instructions": [
+        {
+          "id": 1,
+          "instruction": "Triture os biscoitos maisena em um processador ou liquidificador até obter uma farofa fina."
+        },
+        {
+          "id": 2,
+          "instruction": "Em uma tigela, misture a farofa de biscoito com a manteiga derretida até formar uma massa úmida."
+        },
+        {
+          "id": 3,
+          "instruction": "Forre o fundo de uma forma de aro removível com a massa de biscoito, pressionando bem."
+        },
+        {
+          "id": 4,
+          "instruction": "Leve a forma com a massa para a geladeira e deixe resfriar enquanto prepara o recheio."
+        },
+        {
+          "id": 5,
+          "instruction": "Em uma tigela, misture o leite condensado, o creme de leite e o suco de limão até obter um creme homogêneo."
+        },
+        {
+          "id": 6,
+          "instruction": "Retire a forma da geladeira e despeje o creme de limão sobre a massa de biscoito."
+        },
+        {
+          "id": 7,
+          "instruction": "Espalhe o creme de limão de forma uniforme e alise a superfície com uma espátula."
+        },
+        {
+          "id": 8,
+          "instruction": "Leve a torta à geladeira por pelo menos 1 hora, ou até que o creme esteja firme."
+        },
+        {
+          "id": 9,
+          "instruction": "Antes de servir, decore a torta com raspas de limão."
+        },
+        {
+          "id": 10,
+          "instruction": "Desenforme e sirva gelada."
+        }
+      ]
+    }
   ],
-  "profile": { "name": "typicode" }
+  "ingredients": [
+    {
+      "id": 1,
+      "ingredients": "Farinha"
+    },
+    {
+      "id": 2,
+      "ingredients": "Açúcar"
+    },
+    {
+      "id": 3,
+      "ingredients": "Leite"
+    },
+    {
+      "id": 4,
+      "ingredients": "Ovos"
+    },
+    {
+      "id": 5,
+      "ingredients": "Manteiga"
+    },
+    {
+      "id": 6,
+      "ingredients": "Fermento em pó"
+    },
+    {
+      "id": 7,
+      "ingredients": "Sal"
+    },
+    {
+      "id": 8,
+      "ingredients": "Chocolate"
+    },
+    {
+      "id": 9,
+      "ingredients": "Canela"
+    },
+    {
+      "id": 10,
+      "ingredients": "Óleo vegetal"
+    },
+    {
+      "id": 11,
+      "ingredients": "Framboesas"
+    },
+    {
+      "id": 12,
+      "ingredients": "Amêndoas"
+    },
+    {
+      "id": 13,
+      "ingredients": "Baunilha"
+    },
+    {
+      "id": 14,
+      "ingredients": "Limão"
+    },
+    {
+      "id": 15,
+      "ingredients": "Coco ralado"
+    }
+  ]
 }
