@@ -2,45 +2,17 @@
   "users": [
     {
       "nome": "gusta",
+      "bio": "",
       "email": "email@gmail.com",
       "password": "fofifnha",
       "id": 1
     },
     {
-      "nome": "Gustav",
-      "email": "gy@gmail.com",
-      "password": "12345",
-      "id": 2
-    },
-    {
-      "nome": "Gustavo",
-      "email": "gustavo@gmail.com",
-      "password": "gustavo12",
-      "id": 3
-    },
-    {
       "nome": "Gustavo Sousa Castro",
-      "email": "gust4v0309@gmail.com",
-      "password": "fofinah123",
-      "id": 4
-    },
-    {
-      "nome": "Fofinha",
-      "email": "fofinha@gmail.com",
-      "password": "fofinha12",
-      "id": 5
-    },
-    {
-      "nome": "Gongas",
-      "email": "gu@gmail.com",
+      "bio": "",
+      "email": "a@a.com",
       "password": "123",
-      "id": 6
-    },
-    {
-      "nome": "Gustavo Sousa Castro",
-      "email": "g@gmail.com",
-      "password": "1234",
-      "id": 7
+      "id": 2
     }
   ],
   "recipes": [
