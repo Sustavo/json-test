@@ -13,6 +13,13 @@
       "email": "a@a.com",
       "password": "123",
       "id": 2
+    },
+    {
+      "nome": "Julia Legal",
+      "bio": ">>> A bio fica bem aqui Judes <<<",
+      "email": "b@b.com",
+      "password": "123",
+      "id": 3
     }
   ],
   "recipes": [
